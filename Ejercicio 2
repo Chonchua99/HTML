@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Perfil</title>
+    <style>
+        /* Estilo para la tarjeta de perfil */
+        .profile-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: antiquewhite;
+        }
+
+        /* Estilo para la imagen de perfil */
+        .profile-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        /* Estilo para la descripción */
+        .profile-card p {
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile-card">
+        <h1 style="text-align: center;">Joshua Ruiz Horta</h1>
+        <img src="https://scontent.fclo9-1.fna.fbcdn.net/v/t1.6435-9/96791084_3031054953605149_4365878558971658240_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFmKZ-IZgore62HO5sz-Yz81XbgLsPiupjVduAuw-K6mNnS0lPZt8LNOQeFfZO6zS1t3dSJY9e504JtvOkf6tGv&_nc_ohc=1aeio0GdEC4AX8jbi_o&_nc_ht=scontent.fclo9-1.fna&oh=00_AfClxBfrV_X-RVV-kIzxETFE9m_HOzLwvKG21H7JZzwxbQ&oe=6483789A"
+            alt="Imagen de perfil">
+        <p>Soy Joshua Ruiz, soy un joven de 23 años que actualmente cursa decimo
+            semestre de filosofía en la Universidad del
+            valle. En mis tiempos libre me gusta programar y jugar videojuegos, no es por eso de extrañar que tengo una
+            gran
+            afición al mundo de la tecnología. Soy, en otras palabras, un Geek en mis tiempo libre y un filosofo de
+            profesión
+        </p>
+    </div>
+</body>
+
+</html>
